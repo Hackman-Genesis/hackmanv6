@@ -40,3 +40,53 @@ code {
     transform: translateX(-100%);
   }
 }
+
+.timer{
+  padding: 40px 40px;
+  width:50%;
+  background-color: rgb(0, 68, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.btns{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  size: 2em;
+  font-size: 2em;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
+
+.bullz{
+  background-color: #24263B;
+  display: flex;
+  height: 200px;
+  width: 200px;
+}
+.fin{
+  height: 200px;
+  width: 230px;
+}
+.hue{
+  background-color: #24263B;
+}
