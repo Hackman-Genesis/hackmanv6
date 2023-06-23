@@ -6,6 +6,9 @@ import Footer from '../components/Footer';
 import Landing from '../components/Landing';
 import Navbar from '../components/Navbar';
 import TeamNames from '../components/TeamNames';
+import SponsorsLogo from "../components/SponsorsLogo" 
+// import Hours from '../components/Hours';
+
 // import Organisers from '../components/Organisers';
 // import Sponsors from '../components/Sponsors';
 // import Themes from '../components/Themes';
@@ -22,7 +25,7 @@ function LandingPage() {
     const initialCountdown = Math.floor(
         (launchDate.getTime() - currentTime.getTime()) / 1000
     );
-
+    
     useEffect(() => {
         const handleScroll = () => {
           const sectionHeight = document.getElementById('landing').offsetHeight;
@@ -53,6 +56,7 @@ function LandingPage() {
             {/* <Themes /> */}
             {/* <Sponsors /> */}
             {/* <TeamNames /> */}
+            <SponsorsLogo />
             <Faq />
             {/* <Organisers /> */}
             <Footer />

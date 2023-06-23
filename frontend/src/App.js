@@ -6,6 +6,8 @@ import AdminLogin from './pages/AdminLogin';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MassMail from './pages/MassMail';
 import RegClosedPage from './pages/RegClosedPage';
+import Hours from './components/Hours';
+
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route  path="/participants-list" element={<Admin />} />
         <Route  path="/mass-mail" element={<MassMail />} />
         <Route  path="/registeration" element={<RegClosedPage />}/>
+        <Route  path="/24hours" element={<Hours />}/>
+
       </Routes>
     </BrowserRouter>
   );
